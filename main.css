@@ -1,1 +1,36 @@
 /* tansform, transition, animation: */
+
+div {
+  width: 200px;
+  height: 100px;
+  color: white;
+  margin: 10px;
+  opacity: 0;
+}
+
+.animation {
+  background: blue;
+  animation: move 5s 2;
+  animation-fill-mode: forwards;
+}
+
+@keyframes move {
+  0% {
+    opacity: 0.1;
+  }
+  20% {
+    transform: translateX(200px);
+    opacity: 0.25;
+  }
+  50% {
+    transform: translateX(-100px);
+    opacity: 0.5;
+  }
+  75% {
+    opacity: 0.75;
+  }
+  100% {
+    opacity: 1;
+    transform: translateX(200px);
+  }
+}
