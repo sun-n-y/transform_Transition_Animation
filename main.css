@@ -12,10 +12,8 @@ div {
 
 .two {
   background-color: green;
-  transform: rotate();
 }
 
 .three {
   background-color: blue;
-  transform: rotateX(180deg);
 }
