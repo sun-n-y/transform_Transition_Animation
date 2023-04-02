@@ -8,15 +8,12 @@ div {
 
 .one {
   background-color: red;
-  transform: skewX(40deg);
 }
 
 .two {
   background-color: green;
-  transform: skewY(40deg);
 }
 
 .three {
   background-color: blue;
-  transform: skew(10deg, 20deg);
 }
