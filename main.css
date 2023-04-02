@@ -1,1 +1,22 @@
 /* tansform, transition, animation: */
+
+div {
+  width: 150px;
+  height: 150px;
+  display: inline-block;
+}
+
+.one {
+  background: red;
+  transform: translateX(-50%);
+}
+
+.two {
+  background: green;
+  transform: translateY(-50%);
+}
+
+.three {
+  background: blue;
+  transform: translate(200px, 300px);
+}
